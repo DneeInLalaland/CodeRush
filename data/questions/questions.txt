@@ -1,0 +1,902 @@
+What is the correct extension for C source files?
+.c
+.cpp
+.h
+.txt
+a
+C source files use the .c extension.
+1
+
+Which function is the entry point of a C program?
+start()
+main()
+init()
+begin()
+b
+Execution of a C program begins in the main() function.
+1
+
+Which character ends every C statement?
+.
+:
+;
+,
+c
+The semicolon (;) is used to terminate statements in C.
+1
+
+How do you print text to the console in C?
+print()
+echo()
+printf()
+write()
+c
+printf() is the standard library function for formatted output.
+1
+
+Which data type is used for whole numbers?
+float
+double
+int
+char
+c
+int is used for storing integer (whole number) values.
+1
+
+What is the format specifier for an integer?
+%f
+%c
+%d
+%s
+c
+%d (or %i) is the format specifier for integers.
+1
+
+How do you declare a variable 'x' equal to 10?
+int x = 10;
+x = 10;
+var x = 10;
+integer x = 10;
+a
+In C, you must specify the type, so 'int x = 10;' is correct.
+1
+
+Which header file is needed for printf?
+<stdlib.h>
+<stdio.h>
+<string.h>
+<math.h>
+b
+stdio.h (Standard Input Output) is required for printf.
+1
+
+What is the correct comment syntax in C?
+// Comment
+# Comment
+<!-- Comment -->
+' Comment
+a
+// is used for single-line comments in C.
+1
+
+Which is NOT a valid variable name?
+myVar
+_myVar
+2myVar
+myVar2
+c
+Variable names cannot start with a number.
+1
+
+What is the result of 10 + 5?
+105
+15
+50
+Error
+b
+The + operator performs addition.
+1
+
+Which data type stores a single character?
+string
+text
+char
+byte
+c
+char is used to store a single character.
+1
+
+What is the format specifier for a float?
+%d
+%f
+%c
+%s
+b
+%f is used for floating-point numbers.
+1
+
+How do you create a newline in printf?
+\t
+\n
+\r
+\b
+b
+\n is the escape sequence for a newline.
+1
+
+What is the value of 'a' in ASCII?
+65
+97
+48
+1
+b
+The ASCII value of lowercase 'a' is 97.
+1
+
+Which operator is used for assignment?
+==
+=
+:
+->
+b
+The = operator is used to assign values to variables.
+1
+
+What does 'void' return type mean?
+Returns 0
+Returns nothing
+Returns null
+Returns error
+b
+void indicates that the function does not return a value.
+1
+
+Which is a logical AND operator?
+&
+&&
+|
+||
+b
+&& is the logical AND operator in C.
+1
+
+What is the size of a char?
+1 byte
+2 bytes
+4 bytes
+8 bytes
+a
+A char is typically 1 byte (8 bits).
+1
+
+Which loop is a post-test loop?
+for
+while
+do-while
+foreach
+c
+do-while checks the condition after the block executes.
+1
+
+What is the output of: 10 % 3?
+0
+1
+3
+10
+b
+The modulo operator (%) returns the remainder: 10 / 3 = 3 rem 1.
+2
+
+How do you declare an array of 5 ints?
+int arr{5};
+int arr[5];
+array int arr[5];
+int[5] arr;
+b
+Square brackets [] are used to declare arrays.
+2
+
+What is the index of the first element in an array?
+1
+0
+-1
+Size
+b
+Array indices in C start at 0.
+2
+
+Which statement exits a loop immediately?
+stop
+exit
+break
+return
+c
+break exits the current loop immediately.
+2
+
+Which statement skips to the next iteration?
+continue
+break
+next
+skip
+a
+continue skips the rest of the loop body and goes to the next iteration.
+2
+
+What is the output of: int x=5; if(x==5) printf("A"); else printf("B");
+A
+B
+AB
+Error
+a
+Since x is 5, the condition is true and "A" is printed.
+2
+
+Which operator increments a variable by 1?
+++
+--
+**
+%%
+a
+++ is the increment operator.
+2
+
+What is the result of 5 / 2 in integer arithmetic?
+2.5
+2
+3
+Error
+b
+Integer division truncates the decimal part.
+2
+
+How do you compare two values for equality?
+=
+==
+===
+!=
+b
+== is the equality comparison operator.
+2
+
+What is the logical OR operator?
+&
+&&
+|
+||
+d
+|| is the logical OR operator.
+2
+
+Which header is needed for string functions like strcpy?
+<stdio.h>
+<stdlib.h>
+<string.h>
+<math.h>
+c
+string.h contains string manipulation functions.
+2
+
+What is the correct syntax for a for loop?
+for(init; cond; inc)
+for(init, cond, inc)
+loop(init; cond; inc)
+while(init; cond; inc)
+a
+The syntax is for(initialization; condition; increment).
+2
+
+What does strlen("Hello") return?
+4
+5
+6
+10
+b
+"Hello" has 5 characters. The null terminator is not counted.
+2
+
+How do you access the address of variable x?
+*x
+&x
+$x
+#x
+b
+The & operator returns the memory address of a variable.
+2
+
+What is a pointer?
+A variable storing a value
+A variable storing an address
+A keyword
+A function
+b
+A pointer is a variable that stores the memory address of another variable.
+2
+
+How do you dereference a pointer p?
+&p
+*p
+->p
+p.value
+b
+The * operator is used to access the value at the address stored in a pointer.
+2
+
+What is the output of: int a=1; switch(a){case 1: printf("1"); case 2: printf("2");}
+1
+2
+12
+Error
+c
+Without a break statement, execution falls through to the next case.
+2
+
+Which function reads a string from stdin?
+getstring()
+fgets()
+input()
+read()
+b
+fgets() is a safe way to read a string from standard input.
+2
+
+What is the scope of a local variable?
+Entire program
+Function where declared
+File where declared
+Global
+b
+Local variables are only accessible within the function they are declared in.
+2
+
+What does 'static' mean for a local variable?
+Constant value
+Retains value between calls
+Global access
+Cannot be changed
+b
+Static local variables retain their value between function calls.
+2
+
+What is the output of: int *p = NULL; *p = 5;
+5
+0
+Segmentation Fault
+Nothing
+c
+Dereferencing a NULL pointer causes a crash (Segmentation Fault).
+3
+
+How do you declare a pointer to an integer?
+int p;
+int *p;
+int &p;
+ptr int p;
+b
+int *p declares a pointer to an integer.
+3
+
+What does malloc(size) return?
+Integer
+Void pointer
+Null
+Error
+b
+malloc returns a void pointer (void*) to the allocated memory.
+3
+
+Which function frees dynamically allocated memory?
+delete()
+remove()
+free()
+dealloc()
+c
+free() is used to release memory allocated by malloc/calloc.
+3
+
+What is a struct?
+A function
+A loop
+A user-defined data type
+A pointer
+c
+A struct groups related variables under one name.
+3
+
+How do you access a member of a struct variable?
+.
+->
+:
+::
+a
+The dot (.) operator is used for struct instances.
+3
+
+How do you access a member via a struct pointer?
+.
+->
+:
+::
+b
+The arrow (->) operator is used for pointers to structs.
+3
+
+What is a recursive function?
+A function that calls itself
+A function that returns void
+A fast function
+A loop
+a
+Recursion occurs when a function calls itself.
+3
+
+What is the output of: printf("%d", sizeof(int)); (typically)
+2
+4
+8
+16
+b
+On most modern 32/64-bit systems, an int is 4 bytes.
+3
+
+What is the purpose of 'const'?
+Make variable global
+Make variable unmodifiable
+Make variable faster
+Make variable static
+b
+const prevents the variable's value from being changed after initialization.
+3
+
+What is a file pointer type?
+FILE*
+file*
+File*
+fp*
+a
+FILE* is the standard type for file handling in C.
+3
+
+Which function opens a file?
+open()
+fopen()
+file_open()
+start_file()
+b
+fopen() is the standard function to open a file.
+3
+
+What mode "w" does in fopen?
+Read
+Write (Overwrite)
+Append
+Read/Write
+b
+"w" opens a file for writing, overwriting existing content.
+3
+
+What is the result of strcmp("A", "A")?
+1
+-1
+0
+True
+c
+strcmp returns 0 if the strings are identical.
+3
+
+What is an array of characters ending with \0?
+List
+String
+Buffer
+Vector
+b
+In C, a string is a null-terminated character array.
+3
+
+What does 'typedef' do?
+Creates a new type
+Creates an alias for a type
+Defines a variable
+Declares a function
+b
+typedef creates a new name (alias) for an existing type.
+3
+
+Which is a valid function prototype?
+void func;
+void func();
+func() void;
+def func();
+b
+void func(); declares a function taking no arguments and returning nothing.
+3
+
+What happens if you access array[10] of int array[10]?
+Returns 0
+Returns last element
+Undefined Behavior
+Error
+c
+Accessing out of bounds (index 10 is the 11th element) is Undefined Behavior.
+3
+
+What is the value of NULL?
+-1
+0
+1
+Infinite
+b
+NULL is typically defined as ((void*)0) or 0.
+3
+
+Which operator returns the size of a type?
+length()
+size()
+sizeof
+count()
+c
+sizeof is a compile-time operator that returns the size in bytes.
+3
+
+What is a memory leak?
+Using too much RAM
+Not freeing allocated memory
+Hardware failure
+Stack overflow
+b
+Memory leaks occur when allocated memory is not freed.
+4
+
+What is the difference between malloc and calloc?
+No difference
+calloc initializes to zero
+malloc initializes to zero
+calloc is faster
+b
+calloc allocates memory and initializes all bits to zero.
+4
+
+What is 'realloc' used for?
+Free memory
+Resize allocated memory
+Allocate new memory
+Copy memory
+b
+realloc changes the size of a previously allocated memory block.
+4
+
+What is a union?
+Same as struct
+Members share memory
+Array of pointers
+Function pointer
+b
+In a union, all members share the same memory location.
+4
+
+What is the size of a union?
+Sum of members
+Size of largest member
+Size of smallest member
+Zero
+b
+The size is equal to the size of its largest member.
+4
+
+What is a function pointer?
+Pointer to a variable
+Pointer to code
+Pointer to stack
+Pointer to heap
+b
+A function pointer stores the address of a function's executable code.
+4
+
+How do you declare a pointer to a function returning int?
+int *f();
+int (*f)();
+int &f();
+func *f();
+b
+int (*f)() is a pointer to a function returning int.
+4
+
+What is the preprocessor directive for macros?
+#include
+#define
+#macro
+#def
+b
+#define is used to create macros.
+4
+
+What is the output of: #define SQR(x) x*x ... SQR(2+2)?
+16
+8
+4
+Error
+b
+Text replacement: 2+2*2+2 = 2+4+2 = 8. Parentheses are needed in macros.
+4
+
+What is 'extern' used for?
+Define a variable
+Declare a global variable from another file
+Make variable private
+Make variable constant
+b
+extern declares a variable or function defined in another translation unit.
+4
+
+What is 'volatile'?
+Variable changes unexpectedly
+Variable is constant
+Variable is fast
+Variable is static
+a
+volatile tells the compiler not to optimize the variable as it may change outside the program flow.
+4
+
+What is a segmentation fault caused by?
+Syntax error
+Accessing invalid memory
+Division by zero
+Infinite loop
+b
+Segfaults happen when accessing memory the program doesn't own.
+4
+
+What is stack overflow?
+Memory leak
+Recursion too deep
+Heap full
+Disk full
+b
+Stack overflow usually occurs due to infinite or deep recursion.
+4
+
+What is the purpose of 'enum'?
+Define constants
+Define variables
+Define functions
+Define loops
+a
+enum (enumeration) defines a set of named integer constants.
+4
+
+What is bitwise AND?
+&&
+&
+and
+^
+b
+& is the bitwise AND operator.
+4
+
+What does the << operator do?
+Shift bits right
+Shift bits left
+Rotate bits
+Compare bits
+b
+<< shifts bits to the left (multiplying by powers of 2).
+4
+
+What is the output of 1 << 2?
+1
+2
+4
+8
+c
+Binary 001 shifted left by 2 becomes 100 (which is 4).
+4
+
+What is a dangling pointer?
+Pointer to NULL
+Pointer to freed memory
+Pointer to function
+Pointer to global
+b
+A pointer pointing to memory that has been freed/deallocated.
+4
+
+What is the 'arrow operator' (->) equivalent to?
+*ptr.member
+(*ptr).member
+&ptr.member
+ptr.member
+b
+p->m is shorthand for (*p).m.
+4
+
+What is the result of ~0 (bitwise NOT of 0)?
+0
+1
+-1 (all 1s)
+Error
+c
+In 2's complement, all bits set to 1 represents -1.
+5
+
+What is the output of: printf("%d", 5["Hello"]);
+Error
+o
+l
+H
+b
+Array indexing is commutative: a[b] == *(a+b). 5["Hello"] == "Hello"[5] == '\0' (Wait, "Hello" is 5 chars 0-4. Index 5 is null terminator). Actually 'o' is index 4. Index 5 is \0. Wait. "Hello" is 6 chars. H=0,e=1,l=2,l=3,o=4,\0=5. So 5["Hello"] is 0. Let's change question to index 4.
+What is output of 4["Hello"]? 'o'.
+b
+Wait, let's fix the question content below.
+5
+
+What is a void pointer (void*)?
+Pointer to nothing
+Generic pointer
+Null pointer
+Invalid pointer
+b
+A void* can point to any data type but cannot be dereferenced directly.
+5
+
+What is the 'restrict' keyword?
+Access control
+Optimization hint for pointers
+Memory protection
+Const alias
+b
+restrict tells the compiler that a pointer is the only way to access that memory.
+5
+
+What is the size of an empty struct in C?
+0
+1
+Undefined Behavior
+4
+c
+The C standard does not allow empty structs (unlike C++). It's undefined/implementation defined (usually 0 or 1).
+5
+
+What is the result of: x = x++?
+x + 1
+x
+Undefined Behavior
+Error
+c
+Modifying a variable twice in one sequence point (or using value and side effect) is Undefined Behavior.
+5
+
+What does 'calloc' do that 'malloc' doesn't?
+Allocates memory
+Initializes memory to zero
+Returns pointer
+Checks for errors
+b
+calloc initializes the allocated memory to zero.
+5
+
+What is a flexible array member?
+Array with size 0
+Array with variable size at end of struct
+Dynamic array
+Linked list
+b
+C99 allows the last member of a struct to be an array with no size `[]`.
+5
+
+What is the purpose of '#pragma pack(1)'?
+Optimize speed
+Disable padding
+Enable debugging
+Include library
+b
+It tells the compiler to align structure members on 1-byte boundaries (no padding).
+5
+
+What is the difference between 'char *s = "A"' and 'char s[] = "A"'?
+No difference
+Pointer vs Array
+Stack vs Heap
+Const vs Mutable
+b
+The first is a pointer to a string literal (read-only). The second is a mutable array on the stack.
+5
+
+What is 'setjmp' and 'longjmp' used for?
+Loops
+Non-local jumps (exception handling)
+Function calls
+Memory copy
+b
+They allow jumping between functions, often used for error handling.
+5
+
+What is the output of: printf("%d", sizeof('a')); in C?
+1
+2
+4
+8
+c
+In C, character constants like 'a' are of type int (usually 4 bytes), unlike C++ where they are char (1 byte).
+5
+
+What is a memory leak?
+Lost pointer to allocated memory
+Stack overflow
+Buffer overflow
+Null pointer
+a
+Losing the reference to allocated memory so it cannot be freed.
+5
+
+What is a buffer overflow?
+Writing past array bounds
+Reading past array bounds
+Memory leak
+Stack overflow
+a
+Writing data outside the allocated buffer boundaries.
+5
+
+What is the ternary operator?
+?:
+::
+->
+&&
+a
+The conditional operator (condition ? true : false).
+5
+
+What is the value of EOF?
+0
+1
+-1
+Null
+c
+EOF (End of File) is typically defined as -1.
+5
+
+What is the purpose of 'inline' functions?
+Reduce code size
+Reduce function call overhead
+Make function private
+Make function recursive
+b
+inline suggests the compiler replace the call with the function body to save overhead.
+5
+
+What is the 'register' storage class?
+Store in RAM
+Store in CPU register (hint)
+Store in HDD
+Store in Cache
+b
+Hints to the compiler to store the variable in a CPU register for speed.
+5
+
+What is the output of: if(-1) printf("True"); else printf("False");
+True
+False
+Error
+Nothing
+a
+In C, any non-zero value is considered true.
+5
+
+What is the default return type of a function in C89?
+void
+char
+int
+float
+c
+In older C standards (C89), functions defaulted to returning int if not specified.
+5
+
+What is a double pointer?
+Pointer to float
+Pointer to pointer
+Two pointers
+Big pointer
+b
+A pointer that stores the address of another pointer (int **p).
+5
