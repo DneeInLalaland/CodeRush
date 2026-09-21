@@ -1,0 +1,12 @@
+# Build output
+*.o
+*.exe
+CodeRush
+test_bin/
+
+# Runtime data
+data/save/*
+!data/save/.gitkeep
+data/backup/
+tests/test_progress
+.DS_Store
