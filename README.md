@@ -257,12 +257,12 @@ del data\*.o game\*.o input\*.o ui\*.o save\*.o
 
 | Component | Status | Developer |
 |-----------|--------|-----------|
-| Person 1 - Questions | ✅ Complete | Rinrada Dejsuwannachai 3490 |
-| Person 2 - Game Logic | ✅ Complete |  Varakron Vimolgarnjana 3452 |
-| Person 3 - Input | ✅ Complete | Sirapobe Parinyarat 3483 |
-| Person 4 - UI | ✅ Complete | Warattaya Lekma 3480 |
-| Person 5 - Save/Load | ✅ Complete | Karnsinee Nikrotamethanee 3412 |
-| Integration | ✅ Complete | Rinrada Dejsuwannachai 3490 |
+| Person 1 - Questions | ✅ Complete | Rinrada Dejsuwannachai |
+| Person 2 - Game Logic | ✅ Complete |  Varakron Vimolgarnjana |
+| Person 3 - Input | ✅ Complete | Sirapobe Parinyarat |
+| Person 4 - UI | ✅ Complete | Warattaya Lekma |
+| Person 5 - Save/Load | ✅ Complete | Karnsinee Nikrotamethanee |
+| Integration | ✅ Complete | Rinrada Dejsuwannachai |
 
 ---
 
