@@ -35,60 +35,48 @@ This project is divided into 5 main components:
 ## 📁 Project Structure
 ```
 CodeRush/
-|-- data/                    # Person 1 - Question System
-|   |-- question.h
-|   |-- question.c
-|   |-- backup/              # Backup files
-|   |-- questions/
-|   |   +-- questions.txt    # Question database (15 KB)
-|   +-- save/                # Save data
-|       |-- leaderboard
-|       |-- player_TestPlayer
-|       +-- savegame_TestPlayer
-|
-|-- game/                    # Person 2 - Game Logic
-|   |-- game.h
-|   +-- game.c
-|
-|-- input/                   # Person 3 - Input System
-|   |-- input.h
-|   +-- input.c
-|
-|-- ui/                      # Person 4 - UI Display
-|   |-- ui.h
-|   |-- ui.c
-|   |-- graphics.h
-|   |-- graphics.c
-|   |-- animation.h
-|   |-- animation.c
-|   |-- colors.h
-|   +-- symbols.h
-|
-|-- save/                    # Person 5 - Save/Load System
-|   |-- save.h
-|   +-- save.c
-|
-|-- tests/                   # Test files
-|   |-- test_adaptive.c
-|   |-- test_person1.c
-|   |-- test_person2.c
-|   |-- test_person3.c
-|   |-- test_person4.c
-|   |-- test_person5.c
-|   +-- test_progress        # Test results
-|
-|-- docs/                    # Documentation
-|   |-- README_Person1.md
-|   |-- README_Person2.md
-|   |-- README_Person3.md
-|   |-- README_Person4.md
-|   +-- README_Person5.md
-|
-|-- test_bin/                # Compiled test executables
-|-- main.c                   # Main game file
-|-- Makefile                 # Build system
-|-- run_all_tests.sh         # Test runner script
-+-- README.md                # This file
+├── data/                       # Person 1 — Question System
+│   ├── question.h
+│   ├── question.c
+│   ├── questions/
+│   │   └── questions.txt       # Question database
+│   └── save/                   # Save data (written at runtime)
+├── game/                       # Person 2 — Game Logic
+│   ├── game.h
+│   └── game.c
+├── input/                      # Person 3 — Input System
+│   ├── input.h
+│   └── input.c
+├── ui/                         # Person 4 — UI Display
+│   ├── ui.h
+│   ├── ui.c
+│   ├── graphics.h
+│   ├── graphics.c
+│   ├── animation.h
+│   ├── animation.c
+│   ├── colors.h
+│   └── symbols.h
+├── save/                       # Person 5 — Save/Load System
+│   ├── save.h
+│   └── save.c
+├── tests/                      # Test programs
+│   ├── test_adaptive.c
+│   ├── test_person1.c
+│   ├── test_person2.c
+│   ├── test_person3.c
+│   ├── test_person4.c
+│   └── test_person5.c
+├── docs/                       # Per-component documentation
+│   ├── README_Person1.md
+│   ├── README_Person2.md
+│   ├── README_Person3.md
+│   ├── README_Person4.md
+│   └── README_Person5.md
+├── main.c                      # Main game file
+├── Makefile                    # Build system
+├── run_all_tests.sh            # Test runner script
+├── .gitignore
+└── README.md                   # This file
 ```
 
 
