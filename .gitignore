@@ -10,3 +10,6 @@ data/save/*
 data/backup/
 tests/test_progress
 .DS_Store
+
+# Compiled test binaries at root
+/test_*
